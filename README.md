@@ -1,12 +1,12 @@
-<table width="100%">
-  <tr>
-    <td width="150" align="center">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: none; border-collapse: collapse;">
+   <tr>
+    <td width="150" align="center" style="border: none;">
       <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-    </td>
-    <td>
+     </td>
+     <td style="border: none;">
       <h2>Black Hole Simulator - Relativistic Plasma Accretion</h2>
-    </td>
-  </tr>
+     </td>
+   </tr>
 </table>
 
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
