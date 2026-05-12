@@ -1,3 +1,10 @@
+<h1 align="center">
+  <img width="512" height="512" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
+  <br />
+  Black Hole Simulator
+  <br />
+</h1>
+
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
 [![Run Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
