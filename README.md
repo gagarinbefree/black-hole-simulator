@@ -43,3 +43,4 @@ Demo: https://gagarinbefree.github.io/black-hole-simulator/
 - **Effect Composer** - Post-processing effects (Bloom)
 - **Tests** - Jest
 - **CI/CD** - GitHub Actions
+- **Hosting** - GitHub Pages
