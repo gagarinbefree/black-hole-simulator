@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: read
   pages: write
@@ -24,11 +27,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        # Обновите до версии v4.3.0 или новее, если потребуется, они уже могут поддерживать Node.js 24.
+        # Комментарий: Исправлено с помощью env-переменной FORCE_JAVASCRIPT_ACTIONS_TO_NODE24.
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          # Явно указываем версию Node.js для вашего проекта (не для actions)
+          node-version: '20' 
           cache: 'npm'
       
       - name: Install dependencies
