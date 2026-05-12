@@ -3,7 +3,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Three.js](https://img.shields.io/badge/Three.js-r128-green)](https://threejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<h1 align="center">  
+<h1 align="left">  
   <img width="125" height="125" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
   <br />
   Black Hole Simulator
