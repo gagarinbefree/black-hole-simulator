@@ -1,13 +1,7 @@
-<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border: none; border-collapse: collapse;">
-   <tr>
-    <td width="150" align="center" style="border: none;">
-      <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-     </td>
-     <td style="border: none;">
-      <h2>Black Hole Simulator - Relativistic Plasma Accretion</h2>
-     </td>
-   </tr>
-</table>
+<div style="display: flex; align-items: center; gap: 20px; border: none;">
+  <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
+  <h2>Black Hole Simulator - Relativistic Plasma Accretion</h2>
+</div>
 
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
 [![Run Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
