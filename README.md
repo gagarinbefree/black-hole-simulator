@@ -11,7 +11,7 @@
 
 A **real-time 3D simulation** of a supermassive black hole featuring relativistic plasma accretion, gravitational lensing, Einstein rings, and relativistic jets. Built with Three.js and TypeScript.
 
-DEMO https://gagarinbefree.github.io/black-hole-simulator/
+Demo: https://gagarinbefree.github.io/black-hole-simulator/
 
 ## Features
 
