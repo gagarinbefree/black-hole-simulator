@@ -1,3 +1,10 @@
+# Test coverage
+coverage/
+.coverage/
+
+# Test outputs
+test-results/
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -10,7 +17,7 @@ dist/
 dist-ssr/
 *.local
 
-# Editor directories and files
+# Editor directories
 .vscode/
 .idea/
 .DS_Store
@@ -29,52 +36,5 @@ dist-ssr/
 logs/
 *.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-*.lcov
-
 # TypeScript cache
 *.tsbuildinfo
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# parcel-bundler cache
-.cache
-.parcel-cache
-
-# Next.js build output
-.next
-out
-
-# Nuxt.js build output
-.nuxt
-
-# Gatsby files
-.cache/
-public
-
-# Storybook build output
-storybook-static
-
-# Temporary folders
-tmp/
-temp/
