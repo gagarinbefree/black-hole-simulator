@@ -1,23 +1,13 @@
-<style>
-  .header-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: none;
-  }
-  
-  @media (max-width: 768px) {
-    .header-container {
-      flex-direction: column;
-      text-align: center;
-    }
-  }
-</style>
-
-<div class="header-container">
-  <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-  <h2>Black Hole Simulator - Relativistic Plasma Accretion</h2>
-</div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border: none; table-layout: fixed;">
+   <tr>
+    <td width="125" align="center" style="border: none; vertical-align: middle;">
+      <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
+     </td>
+    <td style="border: none; vertical-align: middle;">
+      <h2 style="margin: 0;">Black Hole Simulator - Relativistic Plasma Accretion</h2>
+     </td>
+   </tr>
+</table>
 
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
 [![Run Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
