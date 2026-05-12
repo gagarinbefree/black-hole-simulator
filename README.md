@@ -5,9 +5,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <h1 align="left">  
   <img width="125" height="125" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-  <br />
-  Black Hole Simulator
-  <br />
 </h1>
 
 # Black Hole Simulator - Relativistic Plasma Accretion
