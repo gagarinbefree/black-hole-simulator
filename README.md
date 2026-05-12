@@ -51,5 +51,7 @@ Demo: https://gagarinbefree.github.io/black-hole-simulator/
 - **CI/CD** - GitHub Actions
 - **Hosting** - GitHub Pages
 
-<img width="885" height="573" alt="image" src="https://github.com/user-attachments/assets/6acdec2a-fa6f-4b57-b223-7ad24ec28f00" />
+<a href="https://gagarinbefree.github.io/black-hole-simulator/" target="_blank">
+  <img width="885" height="573" alt="Black Hole Simulator Preview" src="https://github.com/user-attachments/assets/6acdec2a-fa6f-4b57-b223-7ad24ec28f00" />
+</a>
 
