@@ -35,3 +35,4 @@ A **real-time 3D simulation** of a supermassive black hole featuring relativisti
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Build tool and development server
 - **Effect Composer** - Post-processing effects (Bloom)
+- **Tests** - Jest
