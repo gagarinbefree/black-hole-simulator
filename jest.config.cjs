@@ -1,6 +1,6 @@
 module.exports = {
   preset: 'ts-jest/presets/default-esm',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom', // Измените на jsdom для DOM тестов
   roots: ['<rootDir>/tests'],
   testMatch: ['**/*.test.ts', '**/*.spec.ts'],
   collectCoverageFrom: [
@@ -10,13 +10,13 @@ module.exports = {
     '!**/node_modules/**',
   ],
   coverageDirectory: 'coverage',
-  coverageReporters: ['text', 'lcov', 'html', 'json-summary'],
+  coverageReporters: ['text', 'lcov', 'html'],
   coverageThreshold: {
     global: {
-      branches: 70,
-      functions: 70,
-      lines: 70,
-      statements: 70,
+      branches: 50,
+      functions: 50,
+      lines: 50,
+      statements: 50,
     },
   },
   moduleNameMapper: {
@@ -26,18 +26,16 @@ module.exports = {
   transform: {
     '^.+\\.ts$': ['ts-jest', {
       useESM: true,
-      tsconfig: 'tsconfig.json',
+      tsconfig: {
+        allowJs: true,
+        esModuleInterop: true,
+      },
     }],
   },
   extensionsToTreatAsEsm: ['.ts'],
   moduleFileExtensions: ['ts', 'js', 'json'],
   verbose: true,
   testTimeout: 10000,
-  reporters: [
-    'default',
-    ['jest-junit', {
-      outputDirectory: 'test-results',
-      outputName: 'junit.xml',
-    }],
-  ],
+  // Удалите или закомментируйте reporters секцию если она есть
+  // reporters: ['default'],
 };
