@@ -1,6 +1,6 @@
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: nowrap;">
+<div style="display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 20px;">
   <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-  <h2 style="white-space: nowrap;">Black Hole Simulator - Relativistic Plasma Accretion</h2>
+  <h2 style="margin: 0;">Black Hole Simulator - Relativistic Plasma Accretion</h2>
 </div>
 
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
