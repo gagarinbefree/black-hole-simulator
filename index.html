@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Black Hole Simulator - Relativistic Plasma Accretion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            overflow: hidden;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+        }
+        
+        #info {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            background: rgba(0,0,0,0.75);
+            padding: 12px 24px;
+            border-radius: 8px;
+            backdrop-filter: blur(8px);
+            pointer-events: none;
+            z-index: 100;
+            font-family: monospace;
+            border-left: 3px solid #ff6644;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        
+        #info h1 {
+            font-size: 14px;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+        
+        #info p {
+            font-size: 11px;
+            opacity: 0.8;
+        }
+        
+        #controls-panel {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(8px);
+            padding: 16px;
+            border-radius: 12px;
+            color: white;
+            font-family: monospace;
+            font-size: 12px;
+            min-width: 210px;
+            z-index: 100;
+            pointer-events: auto;
+            border: 1px solid rgba(255,100,68,0.3);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        #controls-panel h3 {
+            margin: 0 0 12px 0;
+            font-size: 13px;
+            color: #ffaa66;
+            text-align: center;
+        }
+        
+        .control-group {
+            margin-bottom: 12px;
+        }
+        
+        .control-group label {
+            display: inline-block;
+            width: 110px;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+        
+        .control-group input {
+            width: 90px;
+            cursor: pointer;
+            vertical-align: middle;
+            background: #222;
+            border: 1px solid #555;
+            border-radius: 4px;
+            height: 4px;
+        }
+        
+        .value-display {
+            display: inline-block;
+            width: 35px;
+            text-align: right;
+            font-size: 10px;
+            color: #ffaa66;
+        }
+        
+        hr {
+            margin: 12px 0;
+            border-color: rgba(255,255,255,0.1);
+        }
+        
+        .note {
+            font-size: 9px;
+            text-align: center;
+            color: #aaa;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            #controls-panel { display: none; }
+            #info { font-size: 10px; top: 10px; left: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <h1>⚫ BLACK HOLE SIMULATOR - GARGANTUA</h1>
+        <p>Relativistic plasma accretion | Gravitational lensing | Einstein rings</p>
+    </div>
+    <div id="controls-panel">
+        <h3>⚡ PARAMETERS</h3>
+        <div class="control-group">
+            <label>🌀 Plasma speed:</label>
+            <input type="range" id="plasmaSpeed" min="0" max="2" step="0.01" value="1.0">
+            <span id="speedVal" class="value-display">1.00</span>
+        </div>
+        <div class="control-group">
+            <label>✨ Intensity:</label>
+            <input type="range" id="intensity" min="0.3" max="2" step="0.01" value="1.2">
+            <span id="intensityVal" class="value-display">1.20</span>
+        </div>
+        <div class="control-group">
+            <label>🔥 Plasma density:</label>
+            <input type="range" id="density" min="0.5" max="2" step="0.01" value="1.0">
+            <span id="densityVal" class="value-display">1.00</span>
+        </div>
+        <hr>
+        <div class="note">🖱️ Mouse: rotate camera | Scroll: zoom</div>
+        <div class="note">Relativistic effects active ✓</div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
