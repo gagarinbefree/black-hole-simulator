@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="512" height="512" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
+  <img width="320" height="320" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
   <br />
   Black Hole Simulator
   <br />
