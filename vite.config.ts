@@ -8,16 +8,19 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
+    sourcemap: false, 
+    minify: 'esbuild', 
+    target: 'es2020',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
       },
     },
   },
   resolve: {
     extensions: ['.ts', '.js'],
+  },
+  esbuild: {
+    drop: ['console', 'debugger'],
   },
 });
