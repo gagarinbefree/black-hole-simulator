@@ -4,7 +4,7 @@
       <img width="125" height="125" alt="logo" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
     </td>
     <td>
-      <h3>Black Hole Simulator - Relativistic Plasma Accretion</h3>
+      <h2>Black Hole Simulator - Relativistic Plasma Accretion</h2>
     </td>
   </tr>
 </table>
