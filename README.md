@@ -1,12 +1,31 @@
-<h1 align="left">  
-  <img width="125" height="125" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
-</h1>
-
-[![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
-[![Run Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
-[![Three.js](https://img.shields.io/badge/Three.js-r128-green)](https://threejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<div align="left">
+  <div style="display: flex; align-items: center; gap: 20px;">
+    <div>
+      <img width="125" height="125" alt="10928950" src="https://github.com/user-attachments/assets/33b63da5-5fdf-4069-9626-593ca540f1d5" />
+    </div>
+    <div>
+      <p>
+        <a href="https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml">
+          <img src="https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages">
+        </a>
+        <a href="https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml">
+          <img src="https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg" alt="Run Tests">
+        </a>
+        <br>
+        <a href="https://www.typescriptlang.org/">
+          <img src="https://img.shields.io/badge/TypeScript-5.0-blue" alt="TypeScript">
+        </a>
+        <a href="https://threejs.org/">
+          <img src="https://img.shields.io/badge/Three.js-r128-green" alt="Three.js">
+        </a>
+        <a href="https://opensource.org/licenses/MIT">
+          <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+        </a>
+      </p>
+      <h1>Black Hole Simulator - Relativistic Plasma Accretion</h1>
+    </div>
+  </div>
+</div>
 
 # Black Hole Simulator - Relativistic Plasma Accretion
 
