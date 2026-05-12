@@ -1,5 +1,5 @@
 [![Deploy to GitHub Pages](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/deploy.yml)
-[![Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
+[![Run Tests](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml/badge.svg)](https://github.com/gagarinbefree/black-hole-simulator/actions/workflows/test.yml)
 [![Coverage Status](https://codecov.io/gh/gagarinbefree/black-hole-simulator/branch/main/graph/badge.svg)](https://codecov.io/gh/gagarinbefree/black-hole-simulator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
